@@ -1,4 +1,4 @@
- trie
+ 
   struct Node
      {
          Node* child[26];
