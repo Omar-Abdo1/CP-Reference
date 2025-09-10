@@ -3,26 +3,6 @@ void remove(idx);  // TODO: remove value at idx from data structure
 void add(idx);     // TODO: add value at idx from data structure
 int get_answer();  // TODO: extract the current answer of the data structure
 
-void Delete(int idx)
-{
-
-    if(f[a[idx]]==2)
-        ++ans;
-    if(f[a[idx]]==1)
-        --ans;
-    --f[a[idx]];
-}
-
-void add(int idx)
-{
-
-    if(f[a[idx]]==0)
-        ++ans;
-    if(f[a[idx]]==1)
-        --ans;
-    ++f[a[idx]];
-}
-
 int block_size; // sqrt(n)
 
 struct Query
@@ -77,3 +57,4 @@ vector<long long> mo_s_algorithm(vector<Query> queries) // 0 based
     }
     return answers;
 }
+
